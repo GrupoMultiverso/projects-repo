@@ -1,6 +1,14 @@
 {
   "parsec_vehcore": {
     "version": "2.0",
-    "changelog": "Test"
+    "title": "^8[Parsec VehCore v2.0]^0",
+    "changelog": [
+      "^2• Rewrote vehicle syncing logic",
+      "^3• Improved performance in traffic-heavy zones",
+      "^4• Added support for electric vehicle sounds",
+      "^1• Fixed critical bug causing desync on restart"
+    ],
+    "note": "^6Get the latest build on Keymaster: ^4https://keymaster.fivem.net"
   }
 }
+

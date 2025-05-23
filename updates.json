@@ -1,0 +1,10 @@
+{
+  "parsec_identity": {
+    "version": "1.0.3",
+    "changelog": "..."
+  },
+  "parsec_utils": {
+    "version": "0.9.1",
+    "changelog": "..."
+  }
+}

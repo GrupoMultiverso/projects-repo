@@ -8,6 +8,6 @@
       "Added support for electric vehicle sounds.",
       "Fixed a critical bug causing desync on restart."
     ],
-    "note": "Get the latest build on Keymaster:\nhttps://keymaster.fivem.net"
+    "note": "^5Get the latest build on Keymaster:\nhttps://keymaster.fivem.net^0"
   }
 }

@@ -1,12 +1,12 @@
 {
   "parsec_vehcore": {
     "version": "2.0",
-    "title": "^5[Parsec VehCore v2.0]^0",
+    "title": "^1[MAJOR UPDATE]^0",
     "changelog": [
-      "Rewrote vehicle syncing logic.",
-      "Improved performance in traffic-heavy zones.",
-      "Added support for electric vehicle sounds.",
-      "Fixed a critical bug causing desync on restart."
+      "Rewrote vehicle meta reading to now take into account bundled meta files.",
+      "Fixed not closing brackets {} when not finding any models.",
+      "Added changelogs",
+      "Improved performance"
     ],
     "note": "^5Get the latest build on Keymaster: https://keymaster.fivem.net^0"
   }

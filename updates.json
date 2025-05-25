@@ -9,5 +9,15 @@
       "Improved performance"
     ],
     "note": "^5Get the latest build on Keymaster: https://keymaster.fivem.net^0"
+  },
+  "parsec_vehspawner": {
+    "version": "2.1",
+    "title": "^3[UPDATE]^0",
+    "changelog": [
+      "Added support for mm_carkeys",
+      "Added changelogs",
+      "Improved performance"
+    ],
+    "note": "^5Get the latest build on Keymaster: https://keymaster.fivem.net^0"
   }
 }

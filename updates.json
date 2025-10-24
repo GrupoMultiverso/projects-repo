@@ -11,13 +11,21 @@
     "note": "^5Get the latest build on Keymaster: https://keymaster.fivem.net^0"
   },
   "parsec_vehspawner": {
-    "version": "2.1",
-    "title": "^3[UPDATE]^0",
+    "version": "3.0",
+    "title": "^1[MAJOR UPDATE]^0",
     "changelog": [
-      "Added support for mm_carkeys",
-      "Added changelogs",
-      "Improved performance"
+      "Integrated full support for parsec_lib, enabling unified framework management.",
+      "Rewrote the framework detection system — the script now automatically identifies the active framework without relying on Config.Framework.",
+      "Added compatibility with QBox/QBX and QBCore frameworks.",
+      "Introduced native support for ox_lib integration.",
+      "Implemented compatibility with key systems including qb-vehiclekeys, wasabi_carlock, and cd_garage.",
+      "Added support for qb-menu and ox_lib-based menu systems.",
+      "Introduced ACE-based permission handling.",
+      "Added notification support for qb, qbx, ox_lib, and default chat systems.",
+      "Resolved an issue where the Parsec menu would not close when pressing ESC, BACKSPACE, or using the built-in close button.",
+      "Optimized performance across all systems for smoother operation.",
+      "Reworked the update and changelog logic to reduce redundant console messages when the script is already up to date."
     ],
-    "note": "^5Get the latest build on Keymaster: https://keymaster.fivem.net^0"
+    "note": "^5Download the latest version on Keymaster: https://keymaster.fivem.net^0"
   }
 }

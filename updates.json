@@ -17,12 +17,14 @@
     "version": "3.1",
     "title": "^3[UPDATE]^0",
     "changelog": [
-      "Integrated full support for qbx_vehiclekeys"
+      "Integrated full support for qbx_vehiclekeys",
+      "Added custom exports for key systems that arent supported, yet."
     ],
     "files_affected": [
       "server.lua",
       "client.lua",
-      "fxmanifest.lua"
+      "fxmanifest.lua",
+      "config.lua"
     ],
     "note": "^5Download the latest version on Keymaster: https://keymaster.fivem.net^0"
   }

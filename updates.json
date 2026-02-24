@@ -14,18 +14,19 @@
     "note": "^5Get the latest build on Keymaster: https://keymaster.fivem.net^0"
   },
   "parsec_vehspawner": {
-    "version": "3.1",
+    "version": "3.2",
     "title": "^3[UPDATE]^0",
     "changelog": [
-      "Integrated full support for qbx_vehiclekeys",
-      "Added custom exports for key systems that arent supported, yet."
+      "Added a search bar",
+      "Changed scrollbar behavior to reset when changing pages"
     ],
     "files_affected": [
-      "server.lua",
-      "client.lua",
+      "ui/script.js",
+      "ui/menu.html",
+      "ui/style.css",
       "fxmanifest.lua",
-      "config.lua"
+      "server.lua"
     ],
-    "note": "^5Download the latest version on Keymaster: https://keymaster.fivem.net^0"
+    "note": "^5Download the latest version from Cfx.re Portal: https://portal.cfx.re^0"
   }
 }

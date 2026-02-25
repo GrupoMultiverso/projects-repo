@@ -3,8 +3,8 @@
     "version": "3.0",
     "title": "^1[MAJOR UPDATE]^0",
     "changelog": [
-      "[MAJOR] Reworked the configuration system. Replaced XML configs with FiveM.cfg files. Now deployed alongside server.cfg",
-      "[MAJOR] Added a new dependency: parsec_lib. Deployed alongside the resource",
+      "^1[MAJOR]^0 Reworked the configuration system. Replaced XML configs with FiveM.cfg files. Now deployed alongside server.cfg",
+      "^1[MAJOR]^0 Added a new dependency: parsec_lib. Deployed alongside the resource",
       "Reworked the labeling system to export accurate information",
       "Fixed interpolation issues",
       "Fixed parsing issues",

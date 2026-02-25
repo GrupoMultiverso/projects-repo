@@ -1,32 +1,49 @@
 {
   "parsec_vehcore": {
-    "version": "2.0",
+    "version": "3.0",
     "title": "^1[MAJOR UPDATE]^0",
     "changelog": [
-      "Rewrote vehicle meta reading to now take into account bundled meta files.",
-      "Fixed not closing brackets {} when not finding any models.",
-      "Added changelogs",
-      "Improved performance"
+      "[MAJOR] Reworked the configuration system. Replaced XML configs with FiveM.cfg files. Now deployed alongside server.cfg",
+      "[MAJOR] Added a new dependency: parsec_lib. Deployed alongside the resource",
+      "Reworked the labeling system to export accurate information",
+      "Fixed interpolation issues",
+      "Fixed parsing issues",
+      "Improved performance",
+      "Reworked changelog version fetching"
     ],
     "files_affected": [
-      "fxmanifest.lua"
+      "fxmanifest.lua",
+      "server.lua",
+      "VehicleMetaReader.Server.net.dll"
     ],
-    "note": "^5Get the latest build on Keymaster: https://keymaster.fivem.net^0"
+    "note": "^5Download the latest build from Cfx.re Portal: https://portal.cfx.re^0"
   },
   "parsec_vehspawner": {
-    "version": "3.2",
+    "version": "3.3",
     "title": "^3[UPDATE]^0",
     "changelog": [
       "Added a search bar",
-      "Changed scrollbar behavior to reset when changing pages"
+      "Added vehicle count and pagination",
+      "Improved readability and accessibility by adding folder and vehicle spawn names",
+      "Changed scrollbar behavior to reset when changing pages",
+      "Reworked changelog version fetching",
+      "Removed ox_lib dependency. The resource now performs a runtime check"
     ],
     "files_affected": [
       "ui/script.js",
       "ui/menu.html",
       "ui/style.css",
       "fxmanifest.lua",
-      "server.lua"
+      "server.lua",
+      "client.lua"
     ],
-    "note": "^5Download the latest version from Cfx.re Portal: https://portal.cfx.re^0"
+    "note": "^5Download the latest build from Cfx.re Portal: https://portal.cfx.re^0"
+  },
+  "parsec_lib": {
+    "version": "2.0",
+    "title": "^3[INITIAL RELEASE]^0",
+    "changelog": [],
+    "files_affected": [],
+    "note": "^5Download the latest build from Cfx.re Portal: https://portal.cfx.re^0"
   }
 }

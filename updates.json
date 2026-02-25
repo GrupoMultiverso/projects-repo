@@ -42,11 +42,21 @@
     "note": "^5Download the latest build from Cfx.re Portal: https://portal.cfx.re^0"
   },
   "parsec_lib": {
-    "version": "2.0",
-    "title": "^3[INITIAL RELEASE]^0",
-    "release_date": "24/02/2026",
-    "changelog": [],
-    "files_affected": [],
+    "version": "2.1",
+    "title": "^3[UPDATE]^0",
+    "release_date": "25/02/2026",
+    "changelog": [
+      "Fixed WrapPlayer module",
+      "Fixed GetLastPosition module",
+      "Added a new module: playerState.lua"
+    ],
+    "files_affected": [
+      "server.lua",
+      "client.lua",
+      "modules/wrapPlayer.lua",
+      "modules/getLastPosition.lua",
+      "modules/playerState.lua"
+    ],
     "note": "^5Download the latest build from Cfx.re Portal: https://portal.cfx.re^0"
   },
   "parsec_monitor": {

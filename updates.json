@@ -48,5 +48,13 @@
     "changelog": [],
     "files_affected": [],
     "note": "^5Download the latest build from Cfx.re Portal: https://portal.cfx.re^0"
+  },
+  "parsec_monitor": {
+    "version": "1.0",
+    "title": "^3[INITIAL RELEASE]^0",
+    "release_date": "25/02/2026",
+    "changelog": [],
+    "files_affected": [],
+    "note": "^5Download the latest build from our GitHub: https://github.com/GrupoMultiverso^0"
   }
 }

@@ -42,7 +42,7 @@
     "note": "^5Download the latest build from Cfx.re Portal: https://portal.cfx.re^0"
   },
   "parsec_lib": {
-    "version": "2.1",
+    "version": "2.2",
     "title": "^3[UPDATE]^0",
     "release_date": "25/02/2026",
     "changelog": [

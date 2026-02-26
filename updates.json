@@ -66,5 +66,13 @@
     "changelog": [],
     "files_affected": [],
     "note": "^5Download the latest build from our GitHub: https://github.com/GrupoMultiverso^0"
+  },
+  "parsec_admin": {
+    "version": "1.0",
+    "title": "^3[INITIAL RELEASE]^0",
+    "release_date": "26/02/2026",
+    "changelog": [],
+    "files_affected": [],
+    "note": "^5Download the latest build from our GitHub: https://github.com/GrupoMultiverso^0"
   }
 }

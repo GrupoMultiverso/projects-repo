@@ -1,106 +1,100 @@
 {
   "parsec": {
     "parsec_vehcore": {
-      "version": "3.0",
-      "title": "^1[MAJOR UPDATE]^0",
-      "release_date": "24/02/2026",
+      "version": "3.1",
+      "title": "^3[UPDATE]^0",
+      "release_date": "28/02/2026",
       "changelog": [
-        "^1[MAJOR]^0 Reworked the configuration system. Replaced XML configs with FiveM.cfg files. Now deployed alongside server.cfg",
-        "^1[MAJOR]^0 Added a new dependency: parsec_lib. Deployed alongside the resource",
-        "Reworked the labeling system to export accurate information",
-        "Fixed interpolation issues",
-        "Fixed parsing issues",
-        "Improved performance",
-        "Reworked changelog version fetching"
+        "Version checker logic cleanup",
+        "Reworked C# logic to allow server owners to restart the resource.",
       ],
       "files_affected": [
-        "fxmanifest.lua",
         "server.lua",
         "VehicleMetaReader.Server.net.dll"
       ],
       "note": "^5Download the latest build from Cfx.re Portal: https://portal.cfx.re^0"
     },
     "parsec_vehspawner": {
-      "version": "3.3",
-      "title": "^3[UPDATE]^0",
-      "release_date": "24/02/2026",
+      "version": "3.4",
+      "title": "^5[MINOR UPDATE]^0",
+      "release_date": "28/02/2026",
       "changelog": [
-        "Added a search bar",
-        "Added vehicle count and pagination",
-        "Improved readability and accessibility by adding folder and vehicle spawn names",
-        "Changed scrollbar behavior to reset when changing pages",
-        "Reworked changelog version fetching",
-        "Removed ox_lib dependency. The resource now performs a runtime check"
+        "Version Checker cleanup"
       ],
       "files_affected": [
-        "ui/script.js",
-        "ui/menu.html",
-        "ui/style.css",
-        "fxmanifest.lua",
-        "server.lua",
-        "client.lua"
+        "server.lua"
       ],
       "note": "^5Download the latest build from Cfx.re Portal: https://portal.cfx.re^0"
     },
     "parsec_lib": {
-      "version": "2.2",
-      "title": "^3[UPDATE]^0",
-      "release_date": "25/02/2026",
+      "version": "2.3",
+      "title": "^5[MINOR UPDATE]^0",
+      "release_date": "01/03/2026",
       "changelog": [
-        "Fixed WrapPlayer module",
-        "Fixed GetLastPosition module",
-        "Added a new module: playerState.lua"
+        "Version Checker cleanup"
       ],
       "files_affected": [
-        "server.lua",
-        "client.lua",
-        "modules/wrapPlayer.lua",
-        "modules/getLastPosition.lua",
-        "modules/playerState.lua"
+        "server/versionchecker.lua",
       ],
       "note": "^5Download the latest build from Cfx.re Portal: https://portal.cfx.re^0"
     },
     "parsec_vehutils": {
+      "version": "1.1",
+      "title": "^5[MINOR UPDATE]^0",
+      "release_date": "01/03/2026",
+      "changelog": [
+        "Version Checker cleanup"
+      ],
+      "files_affected": [
+        "server/version.lua",
+      ],
+      "note": "^5Download the latest build from Cfx.re Portal: https://portal.cfx.re^0"
+    },
+    "parsec_admin": {
       "version": "1.0",
-      "title": "^3[INITIAL RELEASE]^0",
+      "title": "^8[INITIAL RELEASE]^0",
       "release_date": "26/02/2026",
       "changelog": [
         "Initial release"
       ],
       "files_affected": [],
       "note": "^5Download the latest build from Cfx.re Portal: https://portal.cfx.re^0"
-    },
-    "parsec_monitor": {
-      "version": "1.0",
-      "title": "^3[INITIAL RELEASE]^0",
-      "release_date": "25/02/2026",
-      "changelog": [
-        "Initial release"
-      ],
-      "files_affected": [],
-      "note": "^5Download the latest build from our GitHub: https://github.com/GrupoMultiverso^0"
-    },
-    "parsec_admin": {
-      "version": "1.0",
-      "title": "^3[INITIAL RELEASE]^0",
-      "release_date": "26/02/2026",
-      "changelog": [
-        "Initial release"
-      ],
-      "files_affected": [],
-      "note": "^5Download the latest build from our GitHub: https://github.com/GrupoMultiverso^0"
     }
     },
   "pascal": {
     "pascal_menu": {
-      "version": "1.0",
-      "title": "^3[INITIAL RELEASE]^0",
-      "release_date": "26/02/2026",
+      "version": "2.0",
+      "title": "^1[MAJOR RELEASE]^0",
+      "release_date": "28/02/2026",
       "changelog": [
-        "Initial release"
+        "^1[MAJOR]^0 Reworked UI",
+        "Version Checker cleanup",
+        "SQL introduction. Resource will save the settings for each player in the SQL."
       ],
-      "files_affected": [],
+      "files_affected": [
+        "server/main.lua",
+        "server/version.lua",
+        "client/main.lua",
+        "client/natives.lua",
+        "fxmanifest.lua",
+        "html/index.html"
+      ],
       "note": "^5Download the latest build from our GitHub: https://github.com/GrupoMultiverso^0"
+    }
+  },
+  "multi": {
+    "multi_monitor": {
+      "version": "1.2",
+      "title": "^5[MINOR UPDATE]^0",
+      "release_date": "28/02/2026",
+      "changelog": [
+        "Split configuration to different file due to escrow"
+      ],
+      "files_affected": [
+        "config.lua",
+        "server.lua"
+      ],
+      "note": "^5Download the latest build from Cfx.re Portal: https://portal.cfx.reo^0"
     }
   }
 }

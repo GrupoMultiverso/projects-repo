@@ -56,13 +56,21 @@
       "note": "^5Download the latest build from Cfx.re Portal: https://portal.cfx.re^0"
     },
     "parsec_admin": {
-      "version": "1.0",
-      "title": "^8[INITIAL RELEASE]^0",
-      "release_date": "26/02/2026",
+      "version": "1.1",
+      "title": "^5[MINOR UPDATE]^0",
+      "release_date": "01/03/2026",
       "changelog": [
-        "Initial release"
+        "God mode while on staff mode",
+        "Fixed ox_lib notify",
+        "Different clothing for each group"
       ],
-      "files_affected": [],
+      "files_affected": [
+        "client/client.lua",
+        "client/functions.lua",
+        "server/server.lua",
+        "config.lua",
+        "fxmanifest.lua"
+      ],
       "note": "^5Download the latest build from Cfx.re Portal: https://portal.cfx.re^0"
     }
     },

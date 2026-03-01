@@ -24,7 +24,10 @@
         "Added support for navigating directly to a specified page"
       ],
       "files_affected": [
-        "server.lua"
+        "client.lua",
+        "ui/menu.html",
+        "ui/script.js",
+        "style.css"
       ],
       "note": "^5Download the latest build from Cfx.re Portal: https://portal.cfx.re^0"
     },
@@ -33,7 +36,7 @@
       "title": "^5[MINOR UPDATE]^0",
       "release_date": "01/03/2026",
       "changelog": [
-        "Version Checker cleanup"
+        "Version checker cleanup"
       ],
       "files_affected": [
         "server/versionchecker.lua",

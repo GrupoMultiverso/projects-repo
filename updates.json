@@ -15,11 +15,13 @@
       "note": "^5Download the latest build from Cfx.re Portal: https://portal.cfx.re^0"
     },
     "parsec_vehspawner": {
-      "version": "3.4",
-      "title": "^5[MINOR UPDATE]^0",
-      "release_date": "28/02/2026",
+      "version": "3.5",
+      "title": "^3[UPDATE]^0",
+      "release_date": "01/03/2026",
       "changelog": [
-        "Version Checker cleanup"
+        "Fixed ox_lib spawn logic",
+        "Preserved the last active page when closing and reopening the menu",
+        "Added support for navigating directly to a specified page"
       ],
       "files_affected": [
         "server.lua"

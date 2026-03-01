@@ -68,23 +68,22 @@
     },
   "pascal": {
     "pascal_menu": {
-      "version": "2.0",
+      "version": "3.0",
       "title": "^1[MAJOR RELEASE]^0",
-      "release_date": "28/02/2026",
+      "release_date": "01/03/2026",
       "changelog": [
-        "^1[MAJOR]^0 Reworked UI",
-        "Version Checker cleanup",
-        "SQL introduction. Resource will save the settings for each player in the SQL."
+        "Added new natives",
+        "Discord webhook integration",
+        "Warnings for sensitive options"
       ],
       "files_affected": [
         "server/main.lua",
-        "server/version.lua",
         "client/main.lua",
         "client/natives.lua",
         "fxmanifest.lua",
         "html/index.html"
       ],
-      "note": "^5Download the latest build from our GitHub: https://github.com/GrupoMultiverso^0"
+      "note": "^5Download the latest build from Cfx.re Portal: https://portal.cfx.re^0"
     }
   },
   "multi": {
